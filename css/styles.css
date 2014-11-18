@@ -1,0 +1,86 @@
+/*
+
+MONOKAI THEME HEXCODES
+PURPLE: #AE81FF;
+RED: #F92672;
+GREEN: #A6E22E;
+DARK-GREY: #272822;
+WHITE: #F8F8F2;
+BLUE: #66D9EF;
+
+
+also, button styles were based on bootstrap buttons
+*/
+
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  background: #272822;
+  color: #F8F8F2;
+}
+
+.pg-num{
+	text-align: right;
+}
+
+input.pg-num-input{
+	width: 50px;
+}
+
+table td.html-name{
+	font-size: 25px;
+}
+
+p.repo-descrip{
+	display: block; 
+	border: 1px solid #D0D0D0; 
+	height: 100px; 
+	width: 1100px;
+	overflow-y: auto;
+	color: #F8F8F2;
+}
+
+a{
+	color: #F92672;
+}
+
+a:visited{
+	color: #AE81FF;
+}
+
+a.html-name{
+	font-size: 25px;
+}
+
+
+#w {
+  display: block;
+  width: 1200px;
+  margin: 0 auto;
+  background: #272822;
+  padding: 15px 25px;
+
+}
+
+.btn-default {
+  background-image: -webkit-linear-gradient(top, #ffffff 0%, #e0e0e0 100%);
+  background-image: -o-linear-gradient(top, #ffffff 0%, #e0e0e0 100%);
+  background-image: linear-gradient(to bottom, #ffffff 0%, #e0e0e0 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe0e0e0', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  background-repeat: repeat-x;
+  border-color: #dbdbdb;
+  text-shadow: 0 1px 0 #fff;
+  border-color: #ccc;
+}
+.btn-default:hover,
+.btn-default:focus {
+  background-color: #e0e0e0;
+  background-position: 0 -15px;
+}
+.btn-default:active,
+.btn-default.active {
+  background-color: #e0e0e0;
+  border-color: #dbdbdb;
+}
